@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
     --color-midium-yellow: #F4CA98;
     --color-light-yellow: #FBF5F3;
     --color-strong-green: #436436;
-    --color-light-green:#CDDBC5;
+    --color-light-green: #CDDBC5;
     --color-danger: #B90404;
     --color-success: #0B620E;
 }
@@ -27,16 +27,16 @@ body {
 
 /* CABEÇALHO */
 
-.not-bold{
+.not-bold {
     color: black;
     font-weight: normal;
 }
 
-h1.title-fintech{
+h1.title-fintech {
     font-size: 3rem;
 }
 
-.title-fintech{
+.title-fintech {
     display: flex;
     justify-content: center;
     margin: 16px 0;
@@ -44,45 +44,47 @@ h1.title-fintech{
     font-weight: bold;
 }
 
-.perfil{
+.perfil {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 18px 26px 0 26px;
 }
 
-.nome{
+.nome {
     font-size: 1.4rem;
     font-weight: bold;
 }
-.boas-vindas, .valor-saldo-disponivel{
+
+.boas-vindas,
+.valor-saldo-disponivel {
     font-size: 1rem;
 }
 
-.boas-vindas{
+.boas-vindas {
     padding: 0;
 }
 
-.valor-saldo-disponivel{
+.valor-saldo-disponivel {
     padding: 0 10px;
 }
 
-.icones{
+.icones {
     color: var(--color-strong-yellow);
     transform: scale(1.8);
 }
 
-.icone-perfil{
+.icone-perfil {
     margin-right: 15px;
 }
 
-.box-saldo{
+.box-saldo {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.saldo{
+.saldo {
     width: 264px;
     height: 67px;
     display: flex;
@@ -93,21 +95,22 @@ h1.title-fintech{
     border-radius: 15px;
 }
 
-.valor-disponivel{
+.valor-disponivel {
     color: var(--background-boxes);
 
 }
 
-.valor-disponivel, .icone-saldo{
+.valor-disponivel,
+.icone-saldo {
     color: var(--background-boxes);
 }
 
-.valor-saldo{
+.valor-saldo {
     font-size: 1.6rem;
     margin: 0;
 }
 
-.conteudo{
+.conteudo {
     background-color: var(--background-boxes);
     margin-top: 17px;
     padding: 22px 0;
@@ -115,7 +118,7 @@ h1.title-fintech{
     border-top-right-radius: 40px;
 }
 
-.links{
+.links {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -124,7 +127,7 @@ h1.title-fintech{
     gap: 10px;
 }
 
-.links-menu{
+.links-menu {
     width: 85px;
     height: 75px;
     border: solid 2px var(--color-strong-yellow);
@@ -138,7 +141,7 @@ h1.title-fintech{
     justify-content: center;
 }
 
-.a-menu{
+.a-menu {
     text-decoration: none;
     color: black;
     font-size: 1rem;
@@ -147,32 +150,32 @@ h1.title-fintech{
     align-items: center;
 }
 
-.icones-nav{
+.icones-nav {
     transform: scale(1.4);
     margin: 5px;
 }
 
 /* ESTILIZAÇÃO MODAL */
 
-.box-modal-mobile{
+.box-modal-mobile {
     justify-content: center;
     align-items: center;
 }
 
-.teste{
+.teste {
     display: flex;
     justify-content: center;
     background-color: var(--background-boxes);
     padding-bottom: 17px;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-color{
+.btn-color {
     width: 223px;
     height: 50px;
     color: var(--background-boxes);
@@ -182,12 +185,12 @@ h1.title-fintech{
     border-radius: 30px;
 }
 
-.btn-color:hover{
+.btn-color:hover {
     color: var(--color-strong-green);
     border: var(--color-strong-green) solid 2px;
 }
 
-.modal-content{
+.modal-content {
     width: 420px;
 }
 
@@ -220,7 +223,7 @@ input[type="radio"]:checked+label.radio-button {
     background-color: var(--color-strong-yellow);
 }
 
-.btn-entrada{
+.btn-entrada {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -240,7 +243,7 @@ input[type="radio"]:checked+label.radio-button {
     font-weight: 600;
 }
 
-fieldset{
+fieldset {
     width: 334px;
     height: 45px;
     border: var(--color-strong-yellow) solid 2px;
@@ -248,25 +251,29 @@ fieldset{
     position: relative;
 }
 
-legend{
+legend {
     position: absolute;
     width: 40px;
     height: 16px;
-    top: -10px; /* Ajuste este valor conforme necessário para posicionar acima da borda */
-    left: 10px; /* Ajuste este valor conforme necessário para alinhar à esquerda */
-    background-color: #fff; /* Ajuste a cor de fundo se necessário */
-    padding: 0 5px; /* Adicione preenchimento para melhorar a aparência */
+    top: -10px;
+    /* Ajuste este valor conforme necessário para posicionar acima da borda */
+    left: 10px;
+    /* Ajuste este valor conforme necessário para alinhar à esquerda */
+    background-color: #fff;
+    /* Ajuste a cor de fundo se necessário */
+    padding: 0 5px;
+    /* Adicione preenchimento para melhorar a aparência */
 }
 
-legend.size{
+legend.size {
     width: 50px;
 }
 
-legend.categoria{
+legend.categoria {
     width: 100px;
 }
 
-.campo-data{
+.campo-data {
     font-size: 1.4rem;
     position: absolute;
     top: 9px;
@@ -274,7 +281,7 @@ legend.categoria{
     border: none;
 }
 
-.campo-valor{
+.campo-valor {
     font-size: 1.4rem;
     position: absolute;
     top: 10px;
@@ -290,16 +297,16 @@ legend.categoria{
     border: none;
 }
 
-.campo-recorrente{
+.campo-recorrente {
     font-size: 1.4rem;
 }
 
-.form-check-input{
+.form-check-input {
     transform: scale(1.5);
     border: var(--color-strong-yellow) solid 1px;
 }
 
-.btn-confirma{
+.btn-confirma {
     width: 184px;
     height: 40px;
     background-color: var(--color-strong-green);
@@ -309,68 +316,68 @@ legend.categoria{
     border-radius: 15px;
 }
 
-.btn-confirma:hover{
+.btn-confirma:hover {
     background-color: #24361d;
     color: var(--background-boxes);
 }
 
 /* ULTIMAS TRANSAÇÕES */
 
-.box-transacoes{
+.box-transacoes {
     background-color: var(--background-boxes);
 }
 
-.transacoes{
+.transacoes {
     display: flex;
     justify-content: center;
     font-weight: bold;
 }
 
-.a-trasacoes{
+.a-trasacoes {
     text-decoration: none;
     color: black;
 }
 
-.ul-transacoes{
+.ul-transacoes {
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
 /* TABELA  */
 
-.espaço-tabela{
+.espaço-tabela {
     padding: 10px 30px;
 }
 
-.box-tabela{
+.box-tabela {
     width: 100%;
     text-align: center;
 }
 
-.tabela-trans{
+.tabela-trans {
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.icone-cor{
+.icone-cor {
     color: var(--color-strong-yellow);
 }
 
-.trans-entrada{
+.trans-entrada {
     color: var(--color-success);
 }
 
-.trans-saida{
+.trans-saida {
     color: var(--color-danger);
 }
 
-.ver-mais{
+.ver-mais {
     text-align: end;
     font-size: 1.2rem;
     text-decoration: none;
@@ -378,40 +385,41 @@ legend.categoria{
     padding-top: 10px;
 }
 
-hr{
+hr {
     background-color: var(--background-boxes);
     margin: 0;
 }
+
 /* CARROSEL */
 
-.box-noticias{
+.box-noticias {
     background-color: var(--background-boxes);
 }
 
-.carousel-item img{
+.carousel-item img {
     width: 100%;
     height: 300px;
 }
 
-h3{
+h3 {
     font-weight: bold;
     padding: 10px;
 }
 
-.titlio-noticia{
+.titlio-noticia {
     text-align: center;
 }
 
-p{
+p {
     font-size: 1.2rem;
     padding: 20px;
 }
 
-.texto-carousel{
+.texto-carousel {
     text-align: center;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     position: relative;
 }
 
@@ -419,7 +427,7 @@ p{
     background-color: var(--color-strong-yellow);
 }
 
-.ver-mais-carrosel{
+.ver-mais-carrosel {
     display: flex;
     justify-content: flex-end;
     font-size: 1.2rem;
@@ -429,43 +437,47 @@ p{
     padding: 10px 20px 20px;
 }
 
-.pai-tsete{
+.pai-tsete {
     justify-content: center;
 }
 
-.imagem-cidade{
+.imagem-cidade {
     max-width: 500px;
 }
 
-.cabecalho-new, .desktop{
+.cabecalho-new,
+.desktop,
+footer {
     display: none;
 }
 
 
 
-@media(min-width: 1025px){ 
+@media(min-width: 1025px) {
 
-    body{
+    body {
         background-color: var(--background-boxes);
     }
 
-    .desktop{
+    .desktop, footer {
         display: block;
     }
 
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: center;
     }
-    
+
     .cabecalho-new {
         display: flex;
         justify-content: space-evenly;
 
     }
+
     .links-navegaveis {
-    padding-left: 10px;
+        padding-left: 10px;
     }
+
     .titulo-desk {
         margin: 0;
         padding: 10px;
@@ -474,31 +486,36 @@ p{
         font-weight: bold;
     }
 
-    .titulo-mobile, .perfil, .conteudo, .teste, .box-saldo-mobile{
+    .titulo-mobile,
+    .perfil,
+    .conteudo,
+    .teste,
+    .box-saldo-mobile {
         display: none;
     }
 
-    .container-desk{
+    .container-desk {
         justify-content: end;
     }
 
-    .nav-link{
+    .nav-link {
         font-size: 1.4rem;
     }
 
-.nav-item{
-    padding-left: 10px;
-}
+    .nav-item {
+        padding-left: 10px;
+    }
 
-.icones-desk {
-    transform: scale(.6);
-    display: flex;
-}
+    .icones-desk {
+        transform: scale(.6);
+        display: flex;
+    }
 
-.nav-form {
-    margin: 0px;
-}
-    .form-desk{
+    .nav-form {
+        margin: 0px;
+    }
+
+    .form-desk {
         transform: scale(.6);
         align-items: center;
     }
@@ -509,22 +526,69 @@ p{
         font-size: 1.4rem;
     }
 
-    .btn-desktop{
+    .btn-desktop {
         font-size: 1.4rem;
     }
 
-    .box-saldo{
+    .box-saldo {
         align-items: center;
         justify-content: center;
         margin: 0;
     }
 
-    .box-saldo-desk{
+    .box-saldo-desk {
         margin: 20px;
     }
 
-    .saida, .modal-desk {
+    .saida,
+    .modal-desk {
         margin-left: 50px;
+    }
+
+    footer ul{
+        margin: 10px;
+    }
+
+    footer p{
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .rodape{
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+
+    .link-rodape{
+        justify-content: space-between;
+    }
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .copy-icon{
+        transform: scale(.8);
+    }
+
+    .redes{
+        flex-direction: column;
+    }
+
+    .redes-rodape{
+        font-size: 1.4rem;
+    }
+
+    .redes-sociais{
+        justify-content: space-between;
+        padding: 20px;
+
+    }
+
+    .redes-icon{
+        transform: scale(3);
     }
 
 }
